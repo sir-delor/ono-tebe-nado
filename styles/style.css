@@ -1,1 +1,90 @@
-/* место для вашего кода */
+body {
+  min-width: 1100px;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #fff;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 38px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.header {
+  display: flex;
+  flex-shrink: 1;
+  align-items: center;
+  width: 1100px;
+  height: 293px;
+}
+
+.menu {
+  display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     width: 393px;
+
+}
+
+.menu-link {
+  position: relative;
+
+}
+
+.menu-link + .menu-link::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  left: -15px;
+  width: 6px;
+  height: 6px;
+  background-color: #000;
+}
+
+.header__logo {
+  display: flex;
+  flex-shrink: 1;
+  justify-content: center;
+  width: 125px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo-image {
+  display: flex;
+  place-items: center; 
+}
+
+.contacts{
+  display: flex;
+  place-items: center;
+  width: 210px; 
+  margin: 0 auto;
+}
+
+.cover{
+   display: flex;
+ align-items: center; /* Вместо place-items для flex */
+ justify-content: center; /* Центрирование по горизонтали */
+ width: 758px;
+ min-height: 300px; /* Добавляем минимальную высоту */
+ background-image: url("../images/cover.jpg"); /* Относительный путь */
+ background-repeat: no-repeat;
+ background-size: cover; /* Масштабирование фонового изображения */
+ background-position: center; /* Центрирование изображения */
+ margin: 0 auto; /* Выравнивание по центру страницы */
+ box-sizing: border-box; /* Учёт padding и border в ширине */
+}
