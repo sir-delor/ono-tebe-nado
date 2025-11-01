@@ -14,11 +14,13 @@ h1 {
 h2 {
   font-weight: 700;
   font-size: 40px;
+  font-family: 'Raleway', sans-serif;
 }
 
 h3 {
   font-weight: 700;
   font-size: 22px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .text-uppercase { 
