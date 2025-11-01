@@ -1,12 +1,14 @@
+html,
 body {
+  height: 100%;
   position: relative;
-  font-family: 'Raleway', sans-serif;
   background-color: #fff;
 }
 
 h1 {
   font-weight: 700;
   font-size: 100px;
+  font-family: 'Raleway', sans-serif;
 }
 
 h2 {
